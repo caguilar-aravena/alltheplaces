@@ -8,7 +8,6 @@ class ComexSpider(scrapy.Spider):
     name = "comex"
     allowed_domains = ["tienda.comex.com.mx"]
     custom_settings = {"ROBOTSTXT_OBEY": False}
-    #no_refs = True
 
     # Crear una lista para almacenar los datos
     data_list = []
