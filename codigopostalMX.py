@@ -112,4 +112,4 @@ def extractPostalCodes():
         logger.exception(f'No existe el directorio {mexico_csvs}')
 
 # Para ejecutar la extraccion de codigos postales
-postal = extractPostalCodes()
+# postal = extractPostalCodes()
